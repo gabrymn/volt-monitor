@@ -1,0 +1,25 @@
+Comandi utili:
+
+	pio run 
+	
+	// compilazione del progetto, verifica correttezza
+
+
+
+	pio run -t upload --upload-port /dev/ttyUSB0
+	
+	// compila e invia firmware a esp attraverso la porta
+	// seriale /dev/ttyUSB0
+	// main.cpp => compilazione => firmware.bin => ESP32
+	
+	
+		
+	pio device monitor -b 115200 -p /dev/ttyUSB0
+	
+	// apre la porta seriale, legge i dati inviati dall’ESP32 e li 
+	// stampa nel terminale	
+		
+		
+Nota: il file include/config.h può contenere costanti o dati sensibili,
+	  va incluso nel file .gitignore	
+		

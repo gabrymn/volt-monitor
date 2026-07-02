@@ -1,0 +1,25 @@
+# PlatformIO build system
+.pio/
+.pioenvs/
+.piolibdeps/
+build/
+
+# VSC
+.vscode/
+
+# File compilati
+*.elf
+*.bin
+*.hex
+*.map
+
+# Log e cache
+*.log
+
+# Secret
+include/config.h
+.env
+
+# OS
+.DS_Store
+Thumbs.db
